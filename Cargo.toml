@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "eye-lib",
+    "eye-cli",
+]

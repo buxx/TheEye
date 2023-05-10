@@ -1,0 +1,8 @@
+[package]
+name = "eye-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eye-lib = { path = "../eye-lib" }
+structopt = "0.3.26"
