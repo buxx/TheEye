@@ -23,3 +23,12 @@ impl FromStr for Metric {
         }
     }
 }
+
+impl Metric {
+    pub fn column(&self) -> usize {
+        match self {
+            Metric::Cpu => 2,
+            Metric::ResidentMemory => 5,
+        }
+    }
+}
